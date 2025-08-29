@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import colors from 'tailwindcss/colors';
+
 export default {
     darkMode: ["class"],
     content: [
@@ -48,7 +50,8 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+            gray: colors.gray,
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
